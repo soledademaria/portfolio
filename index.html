@@ -20,13 +20,19 @@
   <body>
     <header class="header">
       <h1 class="header-logo">Maria Soledade</h1>
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+      <div>
+
+          <nav class="js-menu">
+              <ul class="header-menu">
+                  <li><a href="#experiencia">Experiência</a></li>
+                  <li><a href="#formacao">Formação</a></li>
+                  <li><a href="#projetos">Projetos</a></li>
+                  <li><a href="#contato">Contato</a></li>
+                </ul>
+                
+            </nav>
+            <span class="target"></span>
+        </div>
     </header>
 
     <main class="intro">
@@ -39,7 +45,7 @@
       </div>
     </main>
 
-    <section aria-label="experiencia" class="experiencia">
+    <section aria-label="experiencia " class="experiencia js-scroll">
       <h2 class="experiencia-subtitle">Experiências</h2>
       <div  id="experiencia">
       <div class="empresa">
@@ -67,7 +73,7 @@
       </div>
     </section>
 
-    <section aria-label="Formação" class="formacao" id="formacao">
+    <section aria-label="Formação" class="formacao js-scroll" id="formacao">
         <div class="formacao-container">
             <h2 class="formacao-subtitle">Formação</h2>
             <div>
@@ -115,7 +121,7 @@
         </div>
     </section>
 
-    <footer class="footer" id="contato">
+    <footer class="footer  js-scroll" id="contato ">
         <div class="footer-container">
             <p class="footer-descricao">
              Estou disponível para novos desafios, entre em contato comigo
@@ -150,5 +156,7 @@
             </p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
